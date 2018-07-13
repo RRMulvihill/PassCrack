@@ -1,11 +1,11 @@
 class Passcrack:
 
     #Creates password lists
-    with open("500_passwords.txt") as f:
+    with open("C:/Users/admin/Documents/GitHub/PassCrack/librarys/500_passwords.txt") as f:
         shortList = f.read().splitlines()
-    with open("10_million_password_list_top_1000000.txt") as pl:
+    with open("C:/Users/admin/Documents/GitHub/PassCrack/librarys/10_million_password_list_top_1000000.txt") as pl:
         passList = pl.read().splitlines()
-    with open("english.txt") as ed:
+    with open("C:/Users/admin/Documents/GitHub/PassCrack/librarys/english.txt") as ed:
         english = ed.read().splitlines()
 
 
